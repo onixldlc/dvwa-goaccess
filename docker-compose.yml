@@ -1,0 +1,35 @@
+version: "3.9"
+services:
+  dvwa:
+    container_name: "dvwa-container"
+    image: "vulnerables/web-dvwa"
+    ports:
+      - "127.0.0.1:8080:80"
+    volumes:
+      - "./php.ini:/etc/php/7.0/apache2/php.ini:ro"
+      - "logs:/var/log/apache2/"
+      - "dvwadb:/var/lib/mysql"
+
+  goaccess:
+    container_name: "goaccess-container"
+    build: ./goaccess/
+    # image: "allinurl/goaccess"
+    ports:
+      - "127.0.0.1:7890:7890"
+    volumes:
+      - "logs:/var/log/apache2/:ro"
+      - "report:/report/"
+
+  viewer:
+    container_name: "goaccess-viewer"
+    image: "nginx"
+    ports:
+      - "8081:80"
+    volumes:
+      - "report:/usr/share/nginx/html/:ro"
+
+volumes:
+  logs: 
+  report: 
+  dvwadb: 
+

@@ -1,0 +1,23 @@
+[Mon Dec 12 18:19:34.191091 2022] [mpm_prefork:notice] [pid 278] AH00163: Apache/2.4.25 (Debian) configured -- resuming normal operations
+[Mon Dec 12 18:19:34.191158 2022] [core:notice] [pid 278] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Dec 12 18:25:29.365673 2022] [core:warn] [pid 289] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Dec 12 18:25:29.369858 2022] [mpm_prefork:notice] [pid 289] AH00163: Apache/2.4.25 (Debian) configured -- resuming normal operations
+[Mon Dec 12 18:25:29.369898 2022] [core:notice] [pid 289] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Dec 12 18:27:20.330390 2022] [core:warn] [pid 284] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Dec 12 18:27:20.335001 2022] [mpm_prefork:notice] [pid 284] AH00163: Apache/2.4.25 (Debian) configured -- resuming normal operations
+[Mon Dec 12 18:27:20.335047 2022] [core:notice] [pid 284] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Dec 12 18:27:56.241012 2022] [mpm_prefork:notice] [pid 278] AH00163: Apache/2.4.25 (Debian) configured -- resuming normal operations
+[Mon Dec 12 18:27:56.241092 2022] [core:notice] [pid 278] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Dec 12 18:29:36.935643 2022] [core:warn] [pid 290] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Dec 12 18:29:36.939966 2022] [mpm_prefork:notice] [pid 290] AH00163: Apache/2.4.25 (Debian) configured -- resuming normal operations
+[Mon Dec 12 18:29:36.940011 2022] [core:notice] [pid 290] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Dec 12 18:30:30.066800 2022] [mpm_prefork:notice] [pid 277] AH00163: Apache/2.4.25 (Debian) configured -- resuming normal operations
+[Mon Dec 12 18:30:30.066881 2022] [core:notice] [pid 277] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Dec 12 18:31:13.915125 2022] [mpm_prefork:notice] [pid 289] AH00163: Apache/2.4.25 (Debian) configured -- resuming normal operations
+[Mon Dec 12 18:31:13.915207 2022] [core:notice] [pid 289] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Dec 12 18:38:50.507590 2022] [mpm_prefork:notice] [pid 285] AH00163: Apache/2.4.25 (Debian) configured -- resuming normal operations
+[Mon Dec 12 18:38:50.507662 2022] [core:notice] [pid 285] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Dec 12 18:39:08.133216 2022] [:error] [pid 293] [client 172.22.0.1:54190] PHP Notice:  Constant DVWA_WEB_PAGE_TO_ROOT already defined in /var/www/html/dvwa/includes/DBMS/MySQL.php on line 9, referer: http://127.0.0.1:8080/setup.php
+[Mon Dec 12 18:39:35.521314 2022] [core:warn] [pid 288] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Dec 12 18:39:35.525821 2022] [mpm_prefork:notice] [pid 288] AH00163: Apache/2.4.25 (Debian) configured -- resuming normal operations
+[Mon Dec 12 18:39:35.525862 2022] [core:notice] [pid 288] AH00094: Command line: '/usr/sbin/apache2'
